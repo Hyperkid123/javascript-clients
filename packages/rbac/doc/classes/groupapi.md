@@ -46,7 +46,7 @@ GroupApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/rbac/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L49)*
+*Defined in [packages/rbac/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L49)*
 
 **Parameters:**
 
@@ -66,7 +66,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/rbac/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L51)*
+*Defined in [packages/rbac/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L51)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/rbac/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L51)*
+*Defined in [packages/rbac/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L51)*
 
 ___
 
@@ -86,7 +86,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/rbac/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L49)*
+*Defined in [packages/rbac/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L49)*
 
 ## Methods
 
@@ -94,7 +94,7 @@ ___
 
 ▸ **addPrincipalToGroup**(`uuid`: string, `groupPrincipalIn`: [GroupPrincipalIn](../interfaces/groupprincipalin.md), `options?`: any): *AxiosPromise‹[GroupWithPrincipalsAndRoles](../interfaces/groupwithprincipalsandroles.md)›*
 
-*Defined in [packages/rbac/api.ts:2334](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2334)*
+*Defined in [packages/rbac/api.ts:2334](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2334)*
 
 **`summary`** Add a principal to a group in the tenant
 
@@ -118,7 +118,7 @@ ___
 
 ▸ **addRoleToGroup**(`uuid`: string, `groupRoleIn`: [GroupRoleIn](../interfaces/grouprolein.md), `options?`: any): *AxiosPromise‹[InlineResponse200](../interfaces/inlineresponse200.md)›*
 
-*Defined in [packages/rbac/api.ts:2347](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2347)*
+*Defined in [packages/rbac/api.ts:2347](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2347)*
 
 **`summary`** Add a role to a group in the tenant
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **createGroup**(`group`: [Group](../interfaces/group.md), `options?`: any): *AxiosPromise‹[GroupOut](../interfaces/groupout.md)›*
 
-*Defined in [packages/rbac/api.ts:2359](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2359)*
+*Defined in [packages/rbac/api.ts:2359](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2359)*
 
 **`summary`** Create a group in a tenant
 
@@ -165,7 +165,7 @@ ___
 
 ▸ **deleteGroup**(`uuid`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/rbac/api.ts:2371](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2371)*
+*Defined in [packages/rbac/api.ts:2371](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2371)*
 
 **`summary`** Delete a group in the tenant
 
@@ -188,7 +188,7 @@ ___
 
 ▸ **deletePrincipalFromGroup**(`uuid`: string, `usernames`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/rbac/api.ts:2384](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2384)*
+*Defined in [packages/rbac/api.ts:2384](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2384)*
 
 **`summary`** Remove a principal from a group in the tenant
 
@@ -212,7 +212,7 @@ ___
 
 ▸ **deleteRoleFromGroup**(`uuid`: string, `roles`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/rbac/api.ts:2397](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2397)*
+*Defined in [packages/rbac/api.ts:2397](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2397)*
 
 **`summary`** Remove a role from a group in the tenant
 
@@ -236,7 +236,7 @@ ___
 
 ▸ **getGroup**(`uuid`: string, `options?`: any): *AxiosPromise‹[GroupWithPrincipalsAndRoles](../interfaces/groupwithprincipalsandroles.md)›*
 
-*Defined in [packages/rbac/api.ts:2409](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2409)*
+*Defined in [packages/rbac/api.ts:2409](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2409)*
 
 **`summary`** Get a group in the tenant
 
@@ -259,7 +259,7 @@ ___
 
 ▸ **getPrincipalsFromGroup**(`uuid`: string, `principalUsername?`: string, `limit?`: number, `offset?`: number, `orderBy?`: "username", `options?`: any): *AxiosPromise‹[PrincipalPagination](../interfaces/principalpagination.md)›*
 
-*Defined in [packages/rbac/api.ts:2425](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2425)*
+*Defined in [packages/rbac/api.ts:2425](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2425)*
 
 By default, responses are sorted in ascending order by username
 
@@ -288,7 +288,7 @@ ___
 
 ▸ **listGroups**(`limit?`: number, `offset?`: number, `name?`: string, `nameMatch?`: "partial" | "exact", `scope?`: "account" | "principal", `username?`: string, `uuid?`: Array‹string›, `roleNames?`: Array‹string›, `roleDiscriminator?`: "all" | "any", `orderBy?`: string, `options?`: any): *AxiosPromise‹[GroupPagination](../interfaces/grouppagination.md)›*
 
-*Defined in [packages/rbac/api.ts:2446](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2446)*
+*Defined in [packages/rbac/api.ts:2446](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2446)*
 
 By default, responses are sorted in ascending order by group name
 
@@ -322,7 +322,7 @@ ___
 
 ▸ **listRolesForGroup**(`uuid`: string, `exclude?`: boolean, `roleName?`: string, `roleDescription?`: string, `limit?`: number, `offset?`: number, `orderBy?`: "name" | "modified" | "policyCount", `options?`: any): *AxiosPromise‹[GroupRolesPagination](../interfaces/grouprolespagination.md)›*
 
-*Defined in [packages/rbac/api.ts:2464](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2464)*
+*Defined in [packages/rbac/api.ts:2464](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2464)*
 
 By default, responses are sorted in ascending order by role name
 
@@ -353,7 +353,7 @@ ___
 
 ▸ **updateGroup**(`uuid`: string, `group`: [Group](../interfaces/group.md), `options?`: any): *AxiosPromise‹[GroupOut](../interfaces/groupout.md)›*
 
-*Defined in [packages/rbac/api.ts:2477](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2477)*
+*Defined in [packages/rbac/api.ts:2477](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2477)*
 
 **`summary`** Udate a group in the tenant
 

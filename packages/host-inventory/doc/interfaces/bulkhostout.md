@@ -24,7 +24,7 @@
 
 • **data**? : *Array‹[BulkHostOutDetails](bulkhostoutdetails.md)›*
 
-*Defined in [packages/host-inventory/api.ts:101](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L101)*
+*Defined in [packages/host-inventory/api.ts:101](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L101)*
 
 List of hosts that were created, updated or failed to be processed.
 
@@ -36,7 +36,7 @@ ___
 
 • **errors**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:95](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L95)*
+*Defined in [packages/host-inventory/api.ts:95](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L95)*
 
 Number of items in the \"data\" list that contain errors.
 
@@ -48,7 +48,7 @@ ___
 
 • **total**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:89](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L89)*
+*Defined in [packages/host-inventory/api.ts:89](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L89)*
 
 Total number of items in the \"data\" list.
 

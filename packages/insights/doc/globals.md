@@ -55,7 +55,7 @@
 
 • **BASE_PATH**: *string* = "https://cloud.redhat.com/api/insights/v1".replace(/\/+$/, "")
 
-*Defined in [packages/insights/base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L20)*
+*Defined in [packages/insights/base.ts:20](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L20)*
 
 ## Functions
 
@@ -63,7 +63,7 @@
 
 ▸ **KcsApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:90](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L90)*
+*Defined in [packages/insights/api.ts:90](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L90)*
 
 KcsApi - axios parameter creator
 
@@ -87,7 +87,7 @@ ___
 
 ▸ **KcsApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:207](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L207)*
+*Defined in [packages/insights/api.ts:207](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L207)*
 
 KcsApi - factory interface
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **KcsApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:170](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L170)*
+*Defined in [packages/insights/api.ts:170](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L170)*
 
 KcsApi - functional programming interface
 
@@ -141,7 +141,7 @@ ___
 
 ▸ **ResolutionRiskApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:270](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L270)*
+*Defined in [packages/insights/api.ts:270](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L270)*
 
 ResolutionRiskApi - axios parameter creator
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **ResolutionRiskApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:331](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L331)*
+*Defined in [packages/insights/api.ts:331](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L331)*
 
 ResolutionRiskApi - factory interface
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **ResolutionRiskApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:309](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L309)*
+*Defined in [packages/insights/api.ts:309](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L309)*
 
 ResolutionRiskApi - functional programming interface
 
@@ -211,7 +211,7 @@ ___
 
 ▸ **RulecategoryApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:370](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L370)*
+*Defined in [packages/insights/api.ts:370](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L370)*
 
 RulecategoryApi - axios parameter creator
 
@@ -235,7 +235,7 @@ ___
 
 ▸ **RulecategoryApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:481](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L481)*
+*Defined in [packages/insights/api.ts:481](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L481)*
 
 RulecategoryApi - factory interface
 
@@ -261,7 +261,7 @@ ___
 
 ▸ **RulecategoryApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:445](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L445)*
+*Defined in [packages/insights/api.ts:445](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L445)*
 
 RulecategoryApi - functional programming interface
 
@@ -289,7 +289,7 @@ ___
 
 ▸ **SystemtypeApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:542](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L542)*
+*Defined in [packages/insights/api.ts:542](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L542)*
 
 SystemtypeApi - axios parameter creator
 
@@ -313,7 +313,7 @@ ___
 
 ▸ **SystemtypeApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:653](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L653)*
+*Defined in [packages/insights/api.ts:653](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L653)*
 
 SystemtypeApi - factory interface
 
@@ -339,7 +339,7 @@ ___
 
 ▸ **SystemtypeApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:617](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L617)*
+*Defined in [packages/insights/api.ts:617](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L617)*
 
 SystemtypeApi - functional programming interface
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **TotalRiskApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:714](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L714)*
+*Defined in [packages/insights/api.ts:714](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L714)*
 
 TotalRiskApi - axios parameter creator
 
@@ -389,7 +389,7 @@ ___
 
 ▸ **TotalRiskApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/insights/api.ts:775](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L775)*
+*Defined in [packages/insights/api.ts:775](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L775)*
 
 TotalRiskApi - factory interface
 
@@ -413,7 +413,7 @@ ___
 
 ▸ **TotalRiskApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/insights/api.ts:753](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L753)*
+*Defined in [packages/insights/api.ts:753](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L753)*
 
 TotalRiskApi - functional programming interface
 
@@ -437,7 +437,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [packages/insights/base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L26)*
+*Defined in [packages/insights/base.ts:26](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L26)*
 
 **`export`** 
 
@@ -445,22 +445,22 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [packages/insights/base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L27)*
+*Defined in [packages/insights/base.ts:27](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [packages/insights/base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L30)*
+*Defined in [packages/insights/base.ts:30](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [packages/insights/base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L28)*
+*Defined in [packages/insights/base.ts:28](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [packages/insights/base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/base.ts#L29)*
+*Defined in [packages/insights/base.ts:29](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/base.ts#L29)*

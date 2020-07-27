@@ -22,6 +22,6 @@
 
 • **errors**: *Array‹[RequestErrorErrors](requesterrorerrors.md)›*
 
-*Defined in [api.ts:973](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L973)*
+*Defined in [api.ts:973](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L973)*
 
 **`memberof`** RequestError

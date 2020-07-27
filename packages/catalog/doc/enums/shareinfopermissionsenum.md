@@ -19,7 +19,7 @@
 
 • **Delete**: = "delete"
 
-*Defined in [packages/catalog/api.ts:944](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L944)*
+*Defined in [packages/catalog/api.ts:1112](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1112)*
 
 ___
 
@@ -27,7 +27,7 @@ ___
 
 • **Order**: = "order"
 
-*Defined in [packages/catalog/api.ts:945](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L945)*
+*Defined in [packages/catalog/api.ts:1113](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1113)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **Read**: = "read"
 
-*Defined in [packages/catalog/api.ts:942](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L942)*
+*Defined in [packages/catalog/api.ts:1110](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1110)*
 
 ___
 
@@ -43,4 +43,4 @@ ___
 
 • **Update**: = "update"
 
-*Defined in [packages/catalog/api.ts:943](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L943)*
+*Defined in [packages/catalog/api.ts:1111](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1111)*

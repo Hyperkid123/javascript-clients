@@ -69,7 +69,7 @@ DefaultApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/sources/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/base.ts#L49)*
+*Defined in [packages/sources/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/base.ts#L49)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/sources/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/base.ts#L51)*
+*Defined in [packages/sources/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/base.ts#L51)*
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/sources/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/base.ts#L51)*
+*Defined in [packages/sources/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/base.ts#L51)*
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/sources/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/base.ts#L49)*
+*Defined in [packages/sources/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/base.ts#L49)*
 
 ## Methods
 
@@ -117,7 +117,7 @@ ___
 
 ▸ **checkAvailabilitySource**(`id`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3410](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3410)*
+*Defined in [packages/sources/api.ts:3410](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3410)*
 
 Checks Availability of a Source
 
@@ -142,7 +142,7 @@ ___
 
 ▸ **createApplication**(`application`: [Application](../interfaces/application.md), `options?`: any): *AxiosPromise‹[Application](../interfaces/application.md)›*
 
-*Defined in [packages/sources/api.ts:3422](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3422)*
+*Defined in [packages/sources/api.ts:3422](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3422)*
 
 Creates a Application object
 
@@ -167,7 +167,7 @@ ___
 
 ▸ **createAuthentication**(`authentication`: [Authentication](../interfaces/authentication.md), `options?`: any): *AxiosPromise‹[Authentication](../interfaces/authentication.md)›*
 
-*Defined in [packages/sources/api.ts:3434](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3434)*
+*Defined in [packages/sources/api.ts:3434](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3434)*
 
 Creates a Authentication object
 
@@ -192,7 +192,7 @@ ___
 
 ▸ **createEndpoint**(`endpoint`: [Endpoint](../interfaces/endpoint.md), `options?`: any): *AxiosPromise‹[Endpoint](../interfaces/endpoint.md)›*
 
-*Defined in [packages/sources/api.ts:3446](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3446)*
+*Defined in [packages/sources/api.ts:3446](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3446)*
 
 Creates a Endpoint object
 
@@ -217,7 +217,7 @@ ___
 
 ▸ **createSource**(`source`: [Source](../interfaces/source.md), `options?`: any): *AxiosPromise‹[Source](../interfaces/source.md)›*
 
-*Defined in [packages/sources/api.ts:3458](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3458)*
+*Defined in [packages/sources/api.ts:3458](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3458)*
 
 Creates a Source object
 
@@ -242,7 +242,7 @@ ___
 
 ▸ **createSourceType**(`sourceType`: [SourceType](../interfaces/sourcetype.md), `options?`: any): *AxiosPromise‹[SourceType](../interfaces/sourcetype.md)›*
 
-*Defined in [packages/sources/api.ts:3470](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3470)*
+*Defined in [packages/sources/api.ts:3470](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3470)*
 
 Creates a SourceType object
 
@@ -267,7 +267,7 @@ ___
 
 ▸ **deleteApplication**(`id`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3482](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3482)*
+*Defined in [packages/sources/api.ts:3482](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3482)*
 
 Deletes a Application object
 
@@ -292,7 +292,7 @@ ___
 
 ▸ **deleteAuthentication**(`id`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3494](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3494)*
+*Defined in [packages/sources/api.ts:3494](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3494)*
 
 Deletes a Authentication object
 
@@ -317,7 +317,7 @@ ___
 
 ▸ **deleteEndpoint**(`id`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3506](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3506)*
+*Defined in [packages/sources/api.ts:3506](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3506)*
 
 Deletes a Endpoint object
 
@@ -342,7 +342,7 @@ ___
 
 ▸ **deleteSource**(`id`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3518](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3518)*
+*Defined in [packages/sources/api.ts:3518](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3518)*
 
 Deletes a Source object
 
@@ -367,7 +367,7 @@ ___
 
 ▸ **getDocumentation**(`options?`: any): *AxiosPromise‹object›*
 
-*Defined in [packages/sources/api.ts:3529](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3529)*
+*Defined in [packages/sources/api.ts:3529](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3529)*
 
 **`summary`** Return this API document in JSON format
 
@@ -389,7 +389,7 @@ ___
 
 ▸ **listApplicationTypeSources**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[SourcesCollection](../interfaces/sourcescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3545](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3545)*
+*Defined in [packages/sources/api.ts:3545](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3545)*
 
 Returns an array of Source objects
 
@@ -418,7 +418,7 @@ ___
 
 ▸ **listApplicationTypes**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[ApplicationTypesCollection](../interfaces/applicationtypescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3560](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3560)*
+*Defined in [packages/sources/api.ts:3560](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3560)*
 
 Returns an array of ApplicationType objects
 
@@ -446,7 +446,7 @@ ___
 
 ▸ **listApplications**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[ApplicationsCollection](../interfaces/applicationscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3575](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3575)*
+*Defined in [packages/sources/api.ts:3575](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3575)*
 
 Returns an array of Application objects
 
@@ -474,7 +474,7 @@ ___
 
 ▸ **listAuthentications**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[AuthenticationsCollection](../interfaces/authenticationscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3590](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3590)*
+*Defined in [packages/sources/api.ts:3590](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3590)*
 
 Returns an array of Authentication objects
 
@@ -502,7 +502,7 @@ ___
 
 ▸ **listEndpointAuthentications**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[AuthenticationsCollection](../interfaces/authenticationscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3606](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3606)*
+*Defined in [packages/sources/api.ts:3606](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3606)*
 
 Returns an array of Authentication objects
 
@@ -531,7 +531,7 @@ ___
 
 ▸ **listEndpoints**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[EndpointsCollection](../interfaces/endpointscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3621](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3621)*
+*Defined in [packages/sources/api.ts:3621](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3621)*
 
 Returns an array of Endpoint objects
 
@@ -559,7 +559,7 @@ ___
 
 ▸ **listSourceApplicationTypes**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[ApplicationTypesCollection](../interfaces/applicationtypescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3637](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3637)*
+*Defined in [packages/sources/api.ts:3637](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3637)*
 
 Returns an array of ApplicationType objects
 
@@ -588,7 +588,7 @@ ___
 
 ▸ **listSourceApplications**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[ApplicationsCollection](../interfaces/applicationscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3653](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3653)*
+*Defined in [packages/sources/api.ts:3653](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3653)*
 
 Returns an array of Application objects
 
@@ -617,7 +617,7 @@ ___
 
 ▸ **listSourceEndpoints**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[EndpointsCollection](../interfaces/endpointscollection.md)›*
 
-*Defined in [packages/sources/api.ts:3669](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3669)*
+*Defined in [packages/sources/api.ts:3669](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3669)*
 
 Returns an array of Endpoint objects
 
@@ -646,7 +646,7 @@ ___
 
 ▸ **listSourceTypeSources**(`id`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[SourcesCollection](../interfaces/sourcescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3685](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3685)*
+*Defined in [packages/sources/api.ts:3685](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3685)*
 
 Returns an array of Source objects
 
@@ -675,7 +675,7 @@ ___
 
 ▸ **listSourceTypes**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[SourceTypesCollection](../interfaces/sourcetypescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3700](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3700)*
+*Defined in [packages/sources/api.ts:3700](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3700)*
 
 Returns an array of SourceType objects
 
@@ -703,7 +703,7 @@ ___
 
 ▸ **listSources**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string | Array‹string›, `options?`: any): *AxiosPromise‹[SourcesCollection](../interfaces/sourcescollection.md)›*
 
-*Defined in [packages/sources/api.ts:3715](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3715)*
+*Defined in [packages/sources/api.ts:3715](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3715)*
 
 Returns an array of Source objects
 
@@ -731,7 +731,7 @@ ___
 
 ▸ **postGraphQL**(`graphQLRequest`: [GraphQLRequest](../interfaces/graphqlrequest.md), `options?`: any): *AxiosPromise‹[GraphQLResponse](../interfaces/graphqlresponse.md)›*
 
-*Defined in [packages/sources/api.ts:3727](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3727)*
+*Defined in [packages/sources/api.ts:3727](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3727)*
 
 Performs a GraphQL Query
 
@@ -756,7 +756,7 @@ ___
 
 ▸ **showApplication**(`id`: string, `options?`: any): *AxiosPromise‹[Application](../interfaces/application.md)›*
 
-*Defined in [packages/sources/api.ts:3739](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3739)*
+*Defined in [packages/sources/api.ts:3739](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3739)*
 
 Returns a Application object
 
@@ -781,7 +781,7 @@ ___
 
 ▸ **showApplicationType**(`id`: string, `options?`: any): *AxiosPromise‹[ApplicationType](../interfaces/applicationtype.md)›*
 
-*Defined in [packages/sources/api.ts:3751](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3751)*
+*Defined in [packages/sources/api.ts:3751](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3751)*
 
 Returns a ApplicationType object
 
@@ -806,7 +806,7 @@ ___
 
 ▸ **showAuthentication**(`id`: string, `options?`: any): *AxiosPromise‹[Authentication](../interfaces/authentication.md)›*
 
-*Defined in [packages/sources/api.ts:3763](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3763)*
+*Defined in [packages/sources/api.ts:3763](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3763)*
 
 Returns a Authentication object
 
@@ -831,7 +831,7 @@ ___
 
 ▸ **showEndpoint**(`id`: string, `options?`: any): *AxiosPromise‹[Endpoint](../interfaces/endpoint.md)›*
 
-*Defined in [packages/sources/api.ts:3775](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3775)*
+*Defined in [packages/sources/api.ts:3775](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3775)*
 
 Returns a Endpoint object
 
@@ -856,7 +856,7 @@ ___
 
 ▸ **showSource**(`id`: string, `options?`: any): *AxiosPromise‹[Source](../interfaces/source.md)›*
 
-*Defined in [packages/sources/api.ts:3787](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3787)*
+*Defined in [packages/sources/api.ts:3787](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3787)*
 
 Returns a Source object
 
@@ -881,7 +881,7 @@ ___
 
 ▸ **showSourceType**(`id`: string, `options?`: any): *AxiosPromise‹[SourceType](../interfaces/sourcetype.md)›*
 
-*Defined in [packages/sources/api.ts:3799](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3799)*
+*Defined in [packages/sources/api.ts:3799](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3799)*
 
 Returns a SourceType object
 
@@ -906,7 +906,7 @@ ___
 
 ▸ **updateApplication**(`id`: string, `application`: [Application](../interfaces/application.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3812](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3812)*
+*Defined in [packages/sources/api.ts:3812](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3812)*
 
 Updates a Application object
 
@@ -932,7 +932,7 @@ ___
 
 ▸ **updateAuthentication**(`id`: string, `authentication`: [Authentication](../interfaces/authentication.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3825](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3825)*
+*Defined in [packages/sources/api.ts:3825](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3825)*
 
 Updates a Authentication object
 
@@ -958,7 +958,7 @@ ___
 
 ▸ **updateEndpoint**(`id`: string, `endpoint`: [Endpoint](../interfaces/endpoint.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3838](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3838)*
+*Defined in [packages/sources/api.ts:3838](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3838)*
 
 Updates a Endpoint object
 
@@ -984,7 +984,7 @@ ___
 
 ▸ **updateSource**(`id`: string, `source`: [Source](../interfaces/source.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/sources/api.ts:3851](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/sources/api.ts#L3851)*
+*Defined in [packages/sources/api.ts:3851](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/sources/api.ts#L3851)*
 
 Updates a Source object
 

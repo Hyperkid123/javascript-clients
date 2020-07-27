@@ -42,7 +42,7 @@
 
 • **business_risk_id**: *string | null*
 
-*Defined in [packages/vulnerabilities/api.ts:793](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L793)*
+*Defined in [packages/vulnerabilities/api.ts:793](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L793)*
 
 Filter based on business risk IDs.
 
@@ -54,7 +54,7 @@ ___
 
 • **cvss_from**: *number | null*
 
-*Defined in [packages/vulnerabilities/api.ts:799](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L799)*
+*Defined in [packages/vulnerabilities/api.ts:799](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L799)*
 
 Filter based on cvss score, starting from the value. Use -1 to include also CVEs with N/A cvss score.
 
@@ -66,7 +66,7 @@ ___
 
 • **cvss_to**: *number | null*
 
-*Defined in [packages/vulnerabilities/api.ts:805](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L805)*
+*Defined in [packages/vulnerabilities/api.ts:805](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L805)*
 
 Filter based on cvss score, up to the value.
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [Meta](meta.md).[data_format](meta.md#data_format)*
 
-*Defined in [packages/vulnerabilities/api.ts:754](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L754)*
+*Defined in [packages/vulnerabilities/api.ts:754](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L754)*
 
 Format of the output data, either JSON (default) or CSV.
 
@@ -94,7 +94,7 @@ ___
 
 *Inherited from [Meta](meta.md).[filter](meta.md#filter)*
 
-*Defined in [packages/vulnerabilities/api.ts:706](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L706)*
+*Defined in [packages/vulnerabilities/api.ts:706](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L706)*
 
 Full text filter
 
@@ -106,7 +106,7 @@ ___
 
 • **impact**: *string | null*
 
-*Defined in [packages/vulnerabilities/api.ts:823](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L823)*
+*Defined in [packages/vulnerabilities/api.ts:823](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L823)*
 
 Filter based on impact IDs.
 
@@ -120,7 +120,7 @@ ___
 
 *Inherited from [Meta](meta.md).[limit](meta.md#limit)*
 
-*Defined in [packages/vulnerabilities/api.ts:712](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L712)*
+*Defined in [packages/vulnerabilities/api.ts:712](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L712)*
 
 Maximum number of paginated results.
 
@@ -134,7 +134,7 @@ ___
 
 *Inherited from [Meta](meta.md).[offset](meta.md#offset)*
 
-*Defined in [packages/vulnerabilities/api.ts:718](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L718)*
+*Defined in [packages/vulnerabilities/api.ts:718](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L718)*
 
 First record of paginated response.
 
@@ -148,7 +148,7 @@ ___
 
 *Inherited from [Meta](meta.md).[page](meta.md#page)*
 
-*Defined in [packages/vulnerabilities/api.ts:724](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L724)*
+*Defined in [packages/vulnerabilities/api.ts:724](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L724)*
 
 Page number of paginated response.
 
@@ -162,7 +162,7 @@ ___
 
 *Inherited from [Meta](meta.md).[page_size](meta.md#page_size)*
 
-*Defined in [packages/vulnerabilities/api.ts:730](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L730)*
+*Defined in [packages/vulnerabilities/api.ts:730](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L730)*
 
 Number of records per page of paginated response.
 
@@ -176,7 +176,7 @@ ___
 
 *Inherited from [Meta](meta.md).[pages](meta.md#pages)*
 
-*Defined in [packages/vulnerabilities/api.ts:736](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L736)*
+*Defined in [packages/vulnerabilities/api.ts:736](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L736)*
 
 Total number of pages of paginated response.
 
@@ -188,7 +188,7 @@ ___
 
 • **public_from**: *string | null*
 
-*Defined in [packages/vulnerabilities/api.ts:811](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L811)*
+*Defined in [packages/vulnerabilities/api.ts:811](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L811)*
 
 Filter CVEs based on their published date, starting from the date.
 
@@ -200,7 +200,7 @@ ___
 
 • **public_to**: *string | null*
 
-*Defined in [packages/vulnerabilities/api.ts:817](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L817)*
+*Defined in [packages/vulnerabilities/api.ts:817](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L817)*
 
 Filter CVEs based on their published date, up to the date.
 
@@ -212,7 +212,7 @@ ___
 
 • **security_rule**: *boolean | null*
 
-*Defined in [packages/vulnerabilities/api.ts:829](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L829)*
+*Defined in [packages/vulnerabilities/api.ts:829](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L829)*
 
 Filter based on presence of security rule
 
@@ -226,7 +226,7 @@ ___
 
 *Inherited from [Meta](meta.md).[sort](meta.md#sort)*
 
-*Defined in [packages/vulnerabilities/api.ts:742](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L742)*
+*Defined in [packages/vulnerabilities/api.ts:742](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L742)*
 
 Sorting filter.
 
@@ -238,7 +238,7 @@ ___
 
 • **status_id**: *string | null*
 
-*Defined in [packages/vulnerabilities/api.ts:835](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L835)*
+*Defined in [packages/vulnerabilities/api.ts:835](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L835)*
 
 Filer based on CVE status ID.
 
@@ -252,7 +252,7 @@ ___
 
 *Inherited from [Meta](meta.md).[total_items](meta.md#total_items)*
 
-*Defined in [packages/vulnerabilities/api.ts:748](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L748)*
+*Defined in [packages/vulnerabilities/api.ts:748](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L748)*
 
 Total number of records.
 

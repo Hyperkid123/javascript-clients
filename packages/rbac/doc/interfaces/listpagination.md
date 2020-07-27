@@ -33,7 +33,7 @@
 
 • **links**? : *[PaginationLinks](paginationlinks.md)*
 
-*Defined in [packages/rbac/api.ts:416](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L416)*
+*Defined in [packages/rbac/api.ts:416](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L416)*
 
 **`memberof`** ListPagination
 
@@ -43,6 +43,6 @@ ___
 
 • **meta**? : *[PaginationMeta](paginationmeta.md)*
 
-*Defined in [packages/rbac/api.ts:410](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L410)*
+*Defined in [packages/rbac/api.ts:410](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L410)*
 
 **`memberof`** ListPagination

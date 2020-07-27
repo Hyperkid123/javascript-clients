@@ -22,6 +22,6 @@
 
 • **resolution**: *string*
 
-*Defined in [api.ts:793](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L793)*
+*Defined in [api.ts:793](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L793)*
 
 **`memberof`** RemediationIssueIn

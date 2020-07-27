@@ -98,7 +98,7 @@
 
 • **BASE_PATH**: *string* = "https://cloud.redhat.com/api/remediations/v1".replace(/\/+$/, "")
 
-*Defined in [base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L20)*
+*Defined in [base.ts:20](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L20)*
 
 ___
 
@@ -106,7 +106,7 @@ ___
 
 • **env**: *ProcessEnv‹›* = process.env
 
-*Defined in [test/config.ts:1](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/test/config.ts#L1)*
+*Defined in [test/config.ts:1](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/test/config.ts#L1)*
 
 ## Functions
 
@@ -114,7 +114,7 @@ ___
 
 ▸ **DiagnosisApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:1149](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1149)*
+*Defined in [api.ts:1149](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1149)*
 
 DiagnosisApi - axios parameter creator
 
@@ -136,7 +136,7 @@ ___
 
 ▸ **DiagnosisApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [api.ts:1223](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1223)*
+*Defined in [api.ts:1223](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1223)*
 
 DiagnosisApi - factory interface
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **DiagnosisApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:1199](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1199)*
+*Defined in [api.ts:1199](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1199)*
 
 DiagnosisApi - functional programming interface
 
@@ -184,7 +184,7 @@ ___
 
 ▸ **GeneratorApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:1266](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1266)*
+*Defined in [api.ts:1266](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1266)*
 
 GeneratorApi - axios parameter creator
 
@@ -206,7 +206,7 @@ ___
 
 ▸ **GeneratorApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [api.ts:1337](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1337)*
+*Defined in [api.ts:1337](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1337)*
 
 GeneratorApi - factory interface
 
@@ -230,7 +230,7 @@ ___
 
 ▸ **GeneratorApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:1314](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1314)*
+*Defined in [api.ts:1314](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1314)*
 
 GeneratorApi - functional programming interface
 
@@ -254,7 +254,7 @@ ___
 
 ▸ **RemediationsApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:1378](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L1378)*
+*Defined in [api.ts:1378](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L1378)*
 
 RemediationsApi - axios parameter creator
 
@@ -308,7 +308,7 @@ ___
 
 ▸ **RemediationsApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [api.ts:2434](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L2434)*
+*Defined in [api.ts:2434](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L2434)*
 
 RemediationsApi - factory interface
 
@@ -364,7 +364,7 @@ ___
 
 ▸ **RemediationsApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:2159](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L2159)*
+*Defined in [api.ts:2159](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L2159)*
 
 RemediationsApi - functional programming interface
 
@@ -452,7 +452,7 @@ ___
 
 ▸ **ResolutionsApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:2883](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L2883)*
+*Defined in [api.ts:2883](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L2883)*
 
 ResolutionsApi - axios parameter creator
 
@@ -476,7 +476,7 @@ ___
 
 ▸ **ResolutionsApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [api.ts:3004](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L3004)*
+*Defined in [api.ts:3004](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L3004)*
 
 ResolutionsApi - factory interface
 
@@ -502,7 +502,7 @@ ___
 
 ▸ **ResolutionsApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:2967](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L2967)*
+*Defined in [api.ts:2967](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L2967)*
 
 ResolutionsApi - functional programming interface
 
@@ -530,7 +530,7 @@ ___
 
 ▸ **VersionApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:3067](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L3067)*
+*Defined in [api.ts:3067](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L3067)*
 
 VersionApi - axios parameter creator
 
@@ -552,7 +552,7 @@ ___
 
 ▸ **VersionApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [api.ts:3128](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L3128)*
+*Defined in [api.ts:3128](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L3128)*
 
 VersionApi - factory interface
 
@@ -576,7 +576,7 @@ ___
 
 ▸ **VersionApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [api.ts:3106](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L3106)*
+*Defined in [api.ts:3106](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L3106)*
 
 VersionApi - functional programming interface
 
@@ -600,7 +600,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L26)*
+*Defined in [base.ts:26](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L26)*
 
 **`export`** 
 
@@ -608,25 +608,25 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L27)*
+*Defined in [base.ts:27](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L30)*
+*Defined in [base.ts:30](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L28)*
+*Defined in [base.ts:28](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/base.ts#L29)*
+*Defined in [base.ts:29](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/base.ts#L29)*
 
 ___
 
@@ -634,13 +634,13 @@ ___
 
 ### ▪ **config**: *object*
 
-*Defined in [test/config.ts:5](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/test/config.ts#L5)*
+*Defined in [test/config.ts:5](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/test/config.ts#L5)*
 
 ###  baseOptions
 
 • **baseOptions**: *object*
 
-*Defined in [test/config.ts:7](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/test/config.ts#L7)*
+*Defined in [test/config.ts:7](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/test/config.ts#L7)*
 
 #### Type declaration:
 
@@ -648,4 +648,4 @@ ___
 
 • **basePath**: *string* = env.TEST_BASEPATH || 'http://localhost:9002/api/remediations/v1'
 
-*Defined in [test/config.ts:6](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/test/config.ts#L6)*
+*Defined in [test/config.ts:6](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/test/config.ts#L6)*

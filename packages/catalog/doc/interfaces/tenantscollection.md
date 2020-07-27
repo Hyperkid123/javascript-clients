@@ -24,7 +24,7 @@
 
 • **data**? : *Array‹[Tenant](tenant.md)›*
 
-*Defined in [packages/catalog/api.ts:1078](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L1078)*
+*Defined in [packages/catalog/api.ts:1246](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1246)*
 
 **`memberof`** TenantsCollection
 
@@ -34,7 +34,7 @@ ___
 
 • **links**? : *[CollectionLinks](collectionlinks.md)*
 
-*Defined in [packages/catalog/api.ts:1072](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L1072)*
+*Defined in [packages/catalog/api.ts:1240](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1240)*
 
 **`memberof`** TenantsCollection
 
@@ -44,6 +44,6 @@ ___
 
 • **meta**? : *[CollectionMetadata](collectionmetadata.md)*
 
-*Defined in [packages/catalog/api.ts:1066](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L1066)*
+*Defined in [packages/catalog/api.ts:1234](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L1234)*
 
 **`memberof`** TenantsCollection

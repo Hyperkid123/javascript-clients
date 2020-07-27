@@ -83,7 +83,7 @@
 
 • **BASE_PATH**: *string* = "https://cloud.redhat.com//api/approval/v1.2".replace(/\/+$/, "")
 
-*Defined in [packages/approval/base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L20)*
+*Defined in [packages/approval/base.ts:20](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L20)*
 
 ## Functions
 
@@ -91,7 +91,7 @@
 
 ▸ **ActionApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:675](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L675)*
+*Defined in [packages/approval/api.ts:675](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L675)*
 
 ActionApi - axios parameter creator
 
@@ -117,7 +117,7 @@ ___
 
 ▸ **ActionApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:853](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L853)*
+*Defined in [packages/approval/api.ts:853](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L853)*
 
 ActionApi - factory interface
 
@@ -145,7 +145,7 @@ ___
 
 ▸ **ActionApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:801](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L801)*
+*Defined in [packages/approval/api.ts:801](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L801)*
 
 ActionApi - functional programming interface
 
@@ -177,7 +177,7 @@ ___
 
 ▸ **DefaultApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:940](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L940)*
+*Defined in [packages/approval/api.ts:940](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L940)*
 
 DefaultApi - axios parameter creator
 
@@ -199,7 +199,7 @@ ___
 
 ▸ **DefaultApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:1001](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1001)*
+*Defined in [packages/approval/api.ts:1001](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1001)*
 
 DefaultApi - factory interface
 
@@ -223,7 +223,7 @@ ___
 
 ▸ **DefaultApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:979](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L979)*
+*Defined in [packages/approval/api.ts:979](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L979)*
 
 DefaultApi - functional programming interface
 
@@ -247,7 +247,7 @@ ___
 
 ▸ **GraphqlApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1040](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1040)*
+*Defined in [packages/approval/api.ts:1040](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1040)*
 
 GraphqlApi - axios parameter creator
 
@@ -269,7 +269,7 @@ ___
 
 ▸ **GraphqlApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:1111](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1111)*
+*Defined in [packages/approval/api.ts:1111](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1111)*
 
 GraphqlApi - factory interface
 
@@ -293,7 +293,7 @@ ___
 
 ▸ **GraphqlApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1088](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1088)*
+*Defined in [packages/approval/api.ts:1088](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1088)*
 
 GraphqlApi - functional programming interface
 
@@ -317,7 +317,7 @@ ___
 
 ▸ **RequestApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1152](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1152)*
+*Defined in [packages/approval/api.ts:1152](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1152)*
 
 RequestApi - axios parameter creator
 
@@ -347,7 +347,7 @@ ___
 
 ▸ **RequestApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:1452](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1452)*
+*Defined in [packages/approval/api.ts:1452](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1452)*
 
 RequestApi - factory interface
 
@@ -379,7 +379,7 @@ ___
 
 ▸ **RequestApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1368](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1368)*
+*Defined in [packages/approval/api.ts:1368](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1368)*
 
 RequestApi - functional programming interface
 
@@ -419,7 +419,7 @@ ___
 
 ▸ **TemplateApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1591](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1591)*
+*Defined in [packages/approval/api.ts:1591](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1591)*
 
 TemplateApi - axios parameter creator
 
@@ -443,7 +443,7 @@ ___
 
 ▸ **TemplateApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:1726](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1726)*
+*Defined in [packages/approval/api.ts:1726](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1726)*
 
 TemplateApi - factory interface
 
@@ -469,7 +469,7 @@ ___
 
 ▸ **TemplateApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1686](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1686)*
+*Defined in [packages/approval/api.ts:1686](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1686)*
 
 TemplateApi - functional programming interface
 
@@ -497,7 +497,7 @@ ___
 
 ▸ **WorkflowApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:1795](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L1795)*
+*Defined in [packages/approval/api.ts:1795](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L1795)*
 
 WorkflowApi - axios parameter creator
 
@@ -535,7 +535,7 @@ ___
 
 ▸ **WorkflowApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/approval/api.ts:2372](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L2372)*
+*Defined in [packages/approval/api.ts:2372](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L2372)*
 
 WorkflowApi - factory interface
 
@@ -575,7 +575,7 @@ ___
 
 ▸ **WorkflowApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/approval/api.ts:2222](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/api.ts#L2222)*
+*Defined in [packages/approval/api.ts:2222](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/api.ts#L2222)*
 
 WorkflowApi - functional programming interface
 
@@ -631,7 +631,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [packages/approval/base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L26)*
+*Defined in [packages/approval/base.ts:26](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L26)*
 
 **`export`** 
 
@@ -639,22 +639,22 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [packages/approval/base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L27)*
+*Defined in [packages/approval/base.ts:27](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [packages/approval/base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L30)*
+*Defined in [packages/approval/base.ts:30](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [packages/approval/base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L28)*
+*Defined in [packages/approval/base.ts:28](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [packages/approval/base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/approval/base.ts#L29)*
+*Defined in [packages/approval/base.ts:29](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/approval/base.ts#L29)*

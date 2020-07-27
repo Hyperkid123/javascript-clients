@@ -55,7 +55,7 @@ DefaultApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/vulnerabilities/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L49)*
+*Defined in [packages/vulnerabilities/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L49)*
 
 **Parameters:**
 
@@ -75,7 +75,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/vulnerabilities/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L51)*
+*Defined in [packages/vulnerabilities/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L51)*
 
 ___
 
@@ -85,7 +85,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/vulnerabilities/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L51)*
+*Defined in [packages/vulnerabilities/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L51)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/vulnerabilities/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L49)*
+*Defined in [packages/vulnerabilities/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/base.ts#L49)*
 
 ## Methods
 
@@ -103,7 +103,7 @@ ___
 
 ▸ **deleteSystem**(`inventoryId`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/vulnerabilities/api.ts:3569](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3569)*
+*Defined in [packages/vulnerabilities/api.ts:3569](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3569)*
 
 Deletes system from database.
 
@@ -128,7 +128,7 @@ ___
 
 ▸ **getAffectedSystemsByCve**(`cveId`: string, `filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `statusId?`: string, `dataFormat?`: string, `uuid?`: string, `securityRule?`: string, `options?`: any): *AxiosPromise‹[AffectedSystemsOut](../interfaces/affectedsystemsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3591](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3591)*
+*Defined in [packages/vulnerabilities/api.ts:3591](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3591)*
 
 Report of affected systems for a given CVE.
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **getAffectedSystemsIdsByCve**(`cveId`: string, `filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `statusId?`: string, `dataFormat?`: string, `securityRule?`: string, `options?`: any): *AxiosPromise‹[AffectedSystemsIdsOut](../interfaces/affectedsystemsidsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3612](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3612)*
+*Defined in [packages/vulnerabilities/api.ts:3612](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3612)*
 
 Report of IDs of affected systems for a given CVE.
 
@@ -197,7 +197,7 @@ ___
 
 ▸ **getBusinessRiskList**(`options?`: any): *AxiosPromise‹[BusinessRiskListOut](../interfaces/businessrisklistout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3623](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3623)*
+*Defined in [packages/vulnerabilities/api.ts:3623](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3623)*
 
 Returns available business risk and business_risk_id pairs where business_risk_id is internal ID of the business risk.
 
@@ -221,7 +221,7 @@ ___
 
 ▸ **getCveDetails**(`cveId`: string, `options?`: any): *AxiosPromise‹[CveDetailOut](../interfaces/cvedetailout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3635](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3635)*
+*Defined in [packages/vulnerabilities/api.ts:3635](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3635)*
 
 Show all information about given CVE.
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **getCveIdsBySystem**(`inventoryId`: string, `filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `cvssFrom?`: number, `cvssTo?`: number, `publicFrom?`: string, `publicTo?`: string, `impact?`: string, `statusId?`: string, `dataFormat?`: string, `businessRiskId?`: string, `securityRule?`: boolean, `options?`: any): *AxiosPromise‹[SystemCvesIdsOut](../interfaces/systemcvesidsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3662](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3662)*
+*Defined in [packages/vulnerabilities/api.ts:3662](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3662)*
 
 Shows IDs of all CVEs the system is exposed to.
 
@@ -286,7 +286,7 @@ ___
 
 ▸ **getCveIdsList**(`filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `cvssFrom?`: number, `cvssTo?`: number, `publicFrom?`: string, `publicTo?`: string, `impact?`: string, `dataFormat?`: string, `businessRiskId?`: string, `statusId?`: string, `securityRule?`: boolean, `showAll?`: boolean, `options?`: any): *AxiosPromise‹[VulnerabilitiesIdsOut](../interfaces/vulnerabilitiesidsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3689](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3689)*
+*Defined in [packages/vulnerabilities/api.ts:3689](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3689)*
 
 Overview of vulnerabilities IDs across whole host inventory.
 
@@ -326,7 +326,7 @@ ___
 
 ▸ **getCveList**(`filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `cvssFrom?`: number, `cvssTo?`: number, `publicFrom?`: string, `publicTo?`: string, `impact?`: string, `dataFormat?`: string, `businessRiskId?`: string, `statusId?`: string, `securityRule?`: boolean, `showAll?`: boolean, `options?`: any): *AxiosPromise‹[VulnerabilitiesOut](../interfaces/vulnerabilitiesout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3716](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3716)*
+*Defined in [packages/vulnerabilities/api.ts:3716](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3716)*
 
 Overview of vulnerabilities across whole host inventory.
 
@@ -366,7 +366,7 @@ ___
 
 ▸ **getCveListBySystem**(`inventoryId`: string, `filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `cvssFrom?`: number, `cvssTo?`: number, `publicFrom?`: string, `publicTo?`: string, `impact?`: string, `statusId?`: string, `dataFormat?`: string, `businessRiskId?`: string, `securityRule?`: boolean, `options?`: any): *AxiosPromise‹[SystemCvesOut](../interfaces/systemcvesout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3743](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3743)*
+*Defined in [packages/vulnerabilities/api.ts:3743](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3743)*
 
 Shows detailed information about all CVEs the system is exposed to.
 
@@ -406,7 +406,7 @@ ___
 
 ▸ **getExecutiveReport**(`options?`: any): *AxiosPromise‹[ExecutiveReport](../interfaces/executivereport.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3754](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3754)*
+*Defined in [packages/vulnerabilities/api.ts:3754](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3754)*
 
 Returns top level overview of vulnerabilities affecting given account.
 
@@ -430,7 +430,7 @@ ___
 
 ▸ **getStatusList**(`options?`: any): *AxiosPromise‹[StatusListOut](../interfaces/statuslistout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3765](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3765)*
+*Defined in [packages/vulnerabilities/api.ts:3765](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3765)*
 
 Returns available status and status_id pairs where status_id is internal ID of the status.
 
@@ -454,7 +454,7 @@ ___
 
 ▸ **getSystemDetails**(`inventoryId`: string, `options?`: any): *AxiosPromise‹[SystemDetailsOut](../interfaces/systemdetailsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3777](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3777)*
+*Defined in [packages/vulnerabilities/api.ts:3777](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3777)*
 
 Provides details of a system, e.g. it\'s opt out status.
 
@@ -479,7 +479,7 @@ ___
 
 ▸ **getSystemsIds**(`filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `dataFormat?`: string, `stale?`: boolean, `uuid?`: string, `optOut?`: boolean, `options?`: any): *AxiosPromise‹[SystemIdsOut](../interfaces/systemidsout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3798](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3798)*
+*Defined in [packages/vulnerabilities/api.ts:3798](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3798)*
 
 List systems IDs visible to logged in account.
 
@@ -513,7 +513,7 @@ ___
 
 ▸ **getSystemsList**(`filter?`: string, `limit?`: number, `offset?`: number, `page?`: number, `pageSize?`: number, `sort?`: string, `dataFormat?`: string, `stale?`: boolean, `uuid?`: string, `optOut?`: boolean, `options?`: any): *AxiosPromise‹[SystemListOut](../interfaces/systemlistout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3819](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3819)*
+*Defined in [packages/vulnerabilities/api.ts:3819](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3819)*
 
 List systems visible to logged in account with basic information related to vulnerabilities.
 
@@ -547,7 +547,7 @@ ___
 
 ▸ **getVersion**(`options?`: any): *AxiosPromise‹[VersionOut](../interfaces/versionout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3830](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3830)*
+*Defined in [packages/vulnerabilities/api.ts:3830](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3830)*
 
 Get application version.
 
@@ -571,7 +571,7 @@ ___
 
 ▸ **setCveBusinessRisk**(`cveRiskIn`: [CveRiskIn](../interfaces/cveriskin.md), `options?`: any): *AxiosPromise‹[BulkChangeOut](../interfaces/bulkchangeout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3842](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3842)*
+*Defined in [packages/vulnerabilities/api.ts:3842](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3842)*
 
 Sets business risk for a CVE.
 
@@ -596,7 +596,7 @@ ___
 
 ▸ **setCveStatus**(`cveStatusIn`: [CveStatusIn](../interfaces/cvestatusin.md), `options?`: any): *AxiosPromise‹[BulkChangeOut](../interfaces/bulkchangeout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3854](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3854)*
+*Defined in [packages/vulnerabilities/api.ts:3854](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3854)*
 
 Sets status for a CVE.
 
@@ -621,7 +621,7 @@ ___
 
 ▸ **setStatus**(`statusIn`: [StatusIn](../interfaces/statusin.md), `options?`: any): *AxiosPromise‹[StatusOut](../interfaces/statusout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3866](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3866)*
+*Defined in [packages/vulnerabilities/api.ts:3866](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3866)*
 
 Sets status for given hosts and CVEs.
 
@@ -646,7 +646,7 @@ ___
 
 ▸ **setSystemOptOut**(`inventoryId`: string, `value`: boolean, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/vulnerabilities/api.ts:3879](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3879)*
+*Defined in [packages/vulnerabilities/api.ts:3879](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3879)*
 
 Opts in/out a systems. Opted out system is not shown and manageable by the vulnerability application.
 
@@ -672,7 +672,7 @@ ___
 
 ▸ **setSystemsOptOut**(`optOutIn`: [OptOutIn](../interfaces/optoutin.md), `options?`: any): *AxiosPromise‹[BulkChangeOut](../interfaces/bulkchangeout.md)›*
 
-*Defined in [packages/vulnerabilities/api.ts:3891](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3891)*
+*Defined in [packages/vulnerabilities/api.ts:3891](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/api.ts#L3891)*
 
 Opts in/out a systems. Opted out system is not shown and manageable by the vulnerability application.
 

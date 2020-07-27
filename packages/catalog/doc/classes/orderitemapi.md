@@ -41,7 +41,7 @@ OrderItemApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 **Parameters:**
 
@@ -61,7 +61,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -81,7 +81,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 ## Methods
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **destroyOrderItem**(`id`: string, `options?`: any): *AxiosPromise‹[RestoreKey](../interfaces/restorekey.md)›*
 
-*Defined in [packages/catalog/api.ts:3141](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3141)*
+*Defined in [packages/catalog/api.ts:3100](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3100)*
 
 Deletes the order item  based on order item ID passed
 
@@ -112,9 +112,9 @@ ___
 
 ###  listApprovalRequests
 
-▸ **listApprovalRequests**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `options?`: any): *AxiosPromise‹[ApprovalRequestsCollection](../interfaces/approvalrequestscollection.md)›*
+▸ **listApprovalRequests**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[ApprovalRequestsCollection](../interfaces/approvalrequestscollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3156](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3156)*
+*Defined in [packages/catalog/api.ts:3116](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3116)*
 
 Gets a list of approval request associated with an order item. As the item is being approved one can check the status of the approvals.
 
@@ -132,6 +132,7 @@ Name | Type | Description |
 `limit?` | number | - |
 `offset?` | number | - |
 `filter?` | object | - |
+`sortBy?` | string | - |
 `options?` | any | - |
 
 **Returns:** *AxiosPromise‹[ApprovalRequestsCollection](../interfaces/approvalrequestscollection.md)›*
@@ -140,9 +141,9 @@ ___
 
 ###  listOrderItems
 
-▸ **listOrderItems**(`limit?`: number, `offset?`: number, `filter?`: object, `options?`: any): *AxiosPromise‹[OrderItemsCollection](../interfaces/orderitemscollection.md)›*
+▸ **listOrderItems**(`limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[OrderItemsCollection](../interfaces/orderitemscollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3170](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3170)*
+*Defined in [packages/catalog/api.ts:3131](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3131)*
 
 Gets a list of order items.
 
@@ -159,6 +160,7 @@ Name | Type |
 `limit?` | number |
 `offset?` | number |
 `filter?` | object |
+`sortBy?` | string |
 `options?` | any |
 
 **Returns:** *AxiosPromise‹[OrderItemsCollection](../interfaces/orderitemscollection.md)›*
@@ -167,9 +169,9 @@ ___
 
 ###  listProgressMessages
 
-▸ **listProgressMessages**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `options?`: any): *AxiosPromise‹[ProgressMessagesCollection](../interfaces/progressmessagescollection.md)›*
+▸ **listProgressMessages**(`orderItemId`: string, `limit?`: number, `offset?`: number, `filter?`: object, `sortBy?`: string, `options?`: any): *AxiosPromise‹[ProgressMessagesCollection](../interfaces/progressmessagescollection.md)›*
 
-*Defined in [packages/catalog/api.ts:3185](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3185)*
+*Defined in [packages/catalog/api.ts:3147](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3147)*
 
 Gets a list of progress messages associated with an order item. As the item is being processed the provider can update the progress messages.
 
@@ -187,6 +189,7 @@ Name | Type | Description |
 `limit?` | number | - |
 `offset?` | number | - |
 `filter?` | object | - |
+`sortBy?` | string | - |
 `options?` | any | - |
 
 **Returns:** *AxiosPromise‹[ProgressMessagesCollection](../interfaces/progressmessagescollection.md)›*
@@ -197,7 +200,7 @@ ___
 
 ▸ **restoreOrderItem**(`id`: string, `restoreKey`: [RestoreKey](../interfaces/restorekey.md), `options?`: any): *AxiosPromise‹[OrderItem](../interfaces/orderitem.md)›*
 
-*Defined in [packages/catalog/api.ts:3198](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3198)*
+*Defined in [packages/catalog/api.ts:3160](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3160)*
 
 Restores the order item specified by the order item ID.
 
@@ -223,7 +226,7 @@ ___
 
 ▸ **showOrderItem**(`id`: string, `options?`: any): *AxiosPromise‹[OrderItem](../interfaces/orderitem.md)›*
 
-*Defined in [packages/catalog/api.ts:3210](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L3210)*
+*Defined in [packages/catalog/api.ts:3172](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L3172)*
 
 Gets a specific order item based on the order item ID passed
 

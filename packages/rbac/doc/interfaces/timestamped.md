@@ -23,7 +23,7 @@
 
 • **created**: *string*
 
-*Defined in [packages/rbac/api.ts:1211](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1211)*
+*Defined in [packages/rbac/api.ts:1211](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1211)*
 
 **`memberof`** Timestamped
 
@@ -33,6 +33,6 @@ ___
 
 • **modified**: *string*
 
-*Defined in [packages/rbac/api.ts:1217](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1217)*
+*Defined in [packages/rbac/api.ts:1217](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1217)*
 
 **`memberof`** Timestamped

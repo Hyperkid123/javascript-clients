@@ -92,7 +92,7 @@
 
 • **BASE_PATH**: *string* = "http://localhost".replace(/\/+$/, "")
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L20)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:20](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L20)*
 
 ## Functions
 
@@ -100,7 +100,7 @@
 
 ▸ **DefaultApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:1399](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L1399)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:1399](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L1399)*
 
 DefaultApi - axios parameter creator
 
@@ -160,7 +160,7 @@ ___
 
 ▸ **DefaultApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:3255](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L3255)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:3255](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L3255)*
 
 DefaultApi - factory interface
 
@@ -222,7 +222,7 @@ ___
 
 ▸ **DefaultApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:2872](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L2872)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:2872](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L2872)*
 
 DefaultApi - functional programming interface
 
@@ -322,7 +322,7 @@ ___
 
 ▸ **InternalApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:3902](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L3902)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:3902](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L3902)*
 
 InternalApi - axios parameter creator
 
@@ -350,7 +350,7 @@ ___
 
 ▸ **InternalApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:4183](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L4183)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:4183](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L4183)*
 
 InternalApi - factory interface
 
@@ -380,7 +380,7 @@ ___
 
 ▸ **InternalApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/vulnerabilities/git-api/api.ts:4117](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L4117)*
+*Defined in [packages/vulnerabilities/git-api/api.ts:4117](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/api.ts#L4117)*
 
 InternalApi - functional programming interface
 
@@ -416,7 +416,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L26)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:26](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L26)*
 
 **`export`** 
 
@@ -424,22 +424,22 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L27)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:27](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L30)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:30](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L28)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:28](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [packages/vulnerabilities/git-api/base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L29)*
+*Defined in [packages/vulnerabilities/git-api/base.ts:29](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/vulnerabilities/git-api/base.ts#L29)*

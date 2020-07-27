@@ -40,7 +40,7 @@ SettingsApi - object-oriented interface
 
 *Inherited from [BaseAPI](baseapi.md).[constructor](baseapi.md#constructor)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 **Parameters:**
 
@@ -60,7 +60,7 @@ Name | Type | Default |
 
 *Inherited from [BaseAPI](baseapi.md).[axios](baseapi.md#protected-axios)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[basePath](baseapi.md#protected-basepath)*
 
-*Defined in [packages/catalog/base.ts:51](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
+*Defined in [packages/catalog/base.ts:51](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L51)*
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 *Inherited from [BaseAPI](baseapi.md).[configuration](baseapi.md#protected-configuration)*
 
-*Defined in [packages/catalog/base.ts:49](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
+*Defined in [packages/catalog/base.ts:49](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/base.ts#L49)*
 
 ## Methods
 
@@ -88,7 +88,7 @@ ___
 
 ▸ **createSetting**(`setting`: [Setting](../interfaces/setting.md), `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:6676](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L6676)*
+*Defined in [packages/catalog/api.ts:7703](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L7703)*
 
 Create Tenant Setting
 
@@ -113,7 +113,7 @@ ___
 
 ▸ **destroySetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:6688](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L6688)*
+*Defined in [packages/catalog/api.ts:7715](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L7715)*
 
 Delete a Tenant Setting
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **listSettings**(`options?`: any): *AxiosPromise‹[TenantSettings](../interfaces/tenantsettings.md)›*
 
-*Defined in [packages/catalog/api.ts:6699](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L6699)*
+*Defined in [packages/catalog/api.ts:7726](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L7726)*
 
 List Tenant Settings
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **showSetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:6711](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L6711)*
+*Defined in [packages/catalog/api.ts:7738](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L7738)*
 
 Get a specific Tenant Setting
 
@@ -187,7 +187,7 @@ ___
 
 ▸ **updateSetting**(`name`: string, `options?`: any): *AxiosPromise‹void›*
 
-*Defined in [packages/catalog/api.ts:6723](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/catalog/api.ts#L6723)*
+*Defined in [packages/catalog/api.ts:7750](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/catalog/api.ts#L7750)*
 
 Update a Tenant Setting
 

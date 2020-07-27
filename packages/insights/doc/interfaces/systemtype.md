@@ -24,7 +24,7 @@
 
 • **id**? : *number*
 
-*Defined in [packages/insights/api.ts:71](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L71)*
+*Defined in [packages/insights/api.ts:71](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L71)*
 
 **`memberof`** SystemType
 
@@ -34,7 +34,7 @@ ___
 
 • **product_code**: *string*
 
-*Defined in [packages/insights/api.ts:83](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L83)*
+*Defined in [packages/insights/api.ts:83](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L83)*
 
 **`memberof`** SystemType
 
@@ -44,6 +44,6 @@ ___
 
 • **role**: *string*
 
-*Defined in [packages/insights/api.ts:77](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/insights/api.ts#L77)*
+*Defined in [packages/insights/api.ts:77](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/insights/api.ts#L77)*
 
 **`memberof`** SystemType

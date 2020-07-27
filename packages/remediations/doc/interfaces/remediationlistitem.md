@@ -30,7 +30,7 @@
 
 • **created_at**: *string*
 
-*Defined in [api.ts:899](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L899)*
+*Defined in [api.ts:899](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L899)*
 
 **`memberof`** RemediationListItem
 
@@ -40,7 +40,7 @@ ___
 
 • **created_by**: *[UserOut](userout.md)*
 
-*Defined in [api.ts:893](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L893)*
+*Defined in [api.ts:893](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L893)*
 
 **`memberof`** RemediationListItem
 
@@ -50,7 +50,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [api.ts:881](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L881)*
+*Defined in [api.ts:881](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L881)*
 
 **`memberof`** RemediationListItem
 
@@ -60,7 +60,7 @@ ___
 
 • **issue_count**: *number*
 
-*Defined in [api.ts:917](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L917)*
+*Defined in [api.ts:917](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L917)*
 
 **`memberof`** RemediationListItem
 
@@ -70,7 +70,7 @@ ___
 
 • **name**: *string | null*
 
-*Defined in [api.ts:887](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L887)*
+*Defined in [api.ts:887](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L887)*
 
 **`memberof`** RemediationListItem
 
@@ -80,7 +80,7 @@ ___
 
 • **needs_reboot**: *boolean*
 
-*Defined in [api.ts:929](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L929)*
+*Defined in [api.ts:929](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L929)*
 
 Indicates whether any of the issues contained in the remediation require system reboot
 
@@ -92,7 +92,7 @@ ___
 
 • **system_count**: *number*
 
-*Defined in [api.ts:923](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L923)*
+*Defined in [api.ts:923](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L923)*
 
 **`memberof`** RemediationListItem
 
@@ -102,7 +102,7 @@ ___
 
 • **updated_at**: *string*
 
-*Defined in [api.ts:911](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L911)*
+*Defined in [api.ts:911](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L911)*
 
 **`memberof`** RemediationListItem
 
@@ -112,6 +112,6 @@ ___
 
 • **updated_by**: *[UserOut](userout.md)*
 
-*Defined in [api.ts:905](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L905)*
+*Defined in [api.ts:905](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L905)*
 
 **`memberof`** RemediationListItem

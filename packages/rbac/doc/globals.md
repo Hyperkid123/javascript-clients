@@ -108,7 +108,7 @@
 
 • **BASE_PATH**: *string* = "https://raw.githubusercontent.com/api/rbac/v1".replace(/\/+$/, "")
 
-*Defined in [packages/rbac/base.ts:20](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L20)*
+*Defined in [packages/rbac/base.ts:20](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L20)*
 
 ## Functions
 
@@ -116,7 +116,7 @@
 
 ▸ **AccessApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:1237](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1237)*
+*Defined in [packages/rbac/api.ts:1237](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1237)*
 
 AccessApi - axios parameter creator
 
@@ -138,7 +138,7 @@ ___
 
 ▸ **AccessApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:1332](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1332)*
+*Defined in [packages/rbac/api.ts:1332](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1332)*
 
 AccessApi - factory interface
 
@@ -162,7 +162,7 @@ ___
 
 ▸ **AccessApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:1306](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1306)*
+*Defined in [packages/rbac/api.ts:1306](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1306)*
 
 AccessApi - functional programming interface
 
@@ -186,7 +186,7 @@ ___
 
 ▸ **GroupApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:1379](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1379)*
+*Defined in [packages/rbac/api.ts:1379](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1379)*
 
 GroupApi - axios parameter creator
 
@@ -228,7 +228,7 @@ ___
 
 ▸ **GroupApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:2179](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2179)*
+*Defined in [packages/rbac/api.ts:2179](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2179)*
 
 GroupApi - factory interface
 
@@ -272,7 +272,7 @@ ___
 
 ▸ **GroupApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:1992](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L1992)*
+*Defined in [packages/rbac/api.ts:1992](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L1992)*
 
 GroupApi - functional programming interface
 
@@ -336,7 +336,7 @@ ___
 
 ▸ **PolicyApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:2488](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2488)*
+*Defined in [packages/rbac/api.ts:2488](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2488)*
 
 PolicyApi - axios parameter creator
 
@@ -366,7 +366,7 @@ ___
 
 ▸ **PolicyApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:2834](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2834)*
+*Defined in [packages/rbac/api.ts:2834](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2834)*
 
 PolicyApi - factory interface
 
@@ -398,7 +398,7 @@ ___
 
 ▸ **PolicyApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:2748](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2748)*
+*Defined in [packages/rbac/api.ts:2748](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2748)*
 
 PolicyApi - functional programming interface
 
@@ -438,7 +438,7 @@ ___
 
 ▸ **PrincipalApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:2977](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L2977)*
+*Defined in [packages/rbac/api.ts:2977](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L2977)*
 
 PrincipalApi - axios parameter creator
 
@@ -460,7 +460,7 @@ ___
 
 ▸ **PrincipalApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:3074](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3074)*
+*Defined in [packages/rbac/api.ts:3074](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3074)*
 
 PrincipalApi - factory interface
 
@@ -484,7 +484,7 @@ ___
 
 ▸ **PrincipalApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:3047](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3047)*
+*Defined in [packages/rbac/api.ts:3047](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3047)*
 
 PrincipalApi - functional programming interface
 
@@ -508,7 +508,7 @@ ___
 
 ▸ **RoleApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:3123](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3123)*
+*Defined in [packages/rbac/api.ts:3123](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3123)*
 
 RoleApi - axios parameter creator
 
@@ -540,7 +540,7 @@ ___
 
 ▸ **RoleApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:3543](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3543)*
+*Defined in [packages/rbac/api.ts:3543](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3543)*
 
 RoleApi - factory interface
 
@@ -574,7 +574,7 @@ ___
 
 ▸ **RoleApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:3440](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3440)*
+*Defined in [packages/rbac/api.ts:3440](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3440)*
 
 RoleApi - functional programming interface
 
@@ -618,7 +618,7 @@ ___
 
 ▸ **StatusApiAxiosParamCreator**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:3714](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3714)*
+*Defined in [packages/rbac/api.ts:3714](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3714)*
 
 StatusApi - axios parameter creator
 
@@ -640,7 +640,7 @@ ___
 
 ▸ **StatusApiFactory**(`configuration?`: [Configuration](classes/configuration.md), `basePath?`: string, `axios?`: AxiosInstance): *object*
 
-*Defined in [packages/rbac/api.ts:3781](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3781)*
+*Defined in [packages/rbac/api.ts:3781](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3781)*
 
 StatusApi - factory interface
 
@@ -664,7 +664,7 @@ ___
 
 ▸ **StatusApiFp**(`configuration?`: [Configuration](classes/configuration.md)): *object*
 
-*Defined in [packages/rbac/api.ts:3759](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/api.ts#L3759)*
+*Defined in [packages/rbac/api.ts:3759](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/api.ts#L3759)*
 
 StatusApi - functional programming interface
 
@@ -688,7 +688,7 @@ Name | Type |
 
 ### ▪ **COLLECTION_FORMATS**: *object*
 
-*Defined in [packages/rbac/base.ts:26](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L26)*
+*Defined in [packages/rbac/base.ts:26](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L26)*
 
 **`export`** 
 
@@ -696,22 +696,22 @@ Name | Type |
 
 • **csv**: *string* = ","
 
-*Defined in [packages/rbac/base.ts:27](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L27)*
+*Defined in [packages/rbac/base.ts:27](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L27)*
 
 ###  pipes
 
 • **pipes**: *string* = "|"
 
-*Defined in [packages/rbac/base.ts:30](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L30)*
+*Defined in [packages/rbac/base.ts:30](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L30)*
 
 ###  ssv
 
 • **ssv**: *string* = " "
 
-*Defined in [packages/rbac/base.ts:28](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L28)*
+*Defined in [packages/rbac/base.ts:28](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L28)*
 
 ###  tsv
 
 • **tsv**: *string* = "	"
 
-*Defined in [packages/rbac/base.ts:29](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/rbac/base.ts#L29)*
+*Defined in [packages/rbac/base.ts:29](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/rbac/base.ts#L29)*

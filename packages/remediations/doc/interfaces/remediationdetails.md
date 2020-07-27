@@ -30,7 +30,7 @@
 
 • **auto_reboot**: *boolean*
 
-*Defined in [api.ts:644](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L644)*
+*Defined in [api.ts:644](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L644)*
 
 Indicates whether systems that require reboot for the remediation to be properly applied should be rebooted automatically or not
 
@@ -42,7 +42,7 @@ ___
 
 • **created_at**: *string*
 
-*Defined in [api.ts:656](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L656)*
+*Defined in [api.ts:656](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L656)*
 
 **`memberof`** RemediationDetails
 
@@ -52,7 +52,7 @@ ___
 
 • **created_by**: *[UserOut](userout.md)*
 
-*Defined in [api.ts:650](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L650)*
+*Defined in [api.ts:650](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L650)*
 
 **`memberof`** RemediationDetails
 
@@ -62,7 +62,7 @@ ___
 
 • **id**: *string*
 
-*Defined in [api.ts:626](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L626)*
+*Defined in [api.ts:626](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L626)*
 
 **`memberof`** RemediationDetails
 
@@ -72,7 +72,7 @@ ___
 
 • **issues**: *Array‹[RemediationIssue](remediationissue.md)›*
 
-*Defined in [api.ts:674](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L674)*
+*Defined in [api.ts:674](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L674)*
 
 **`memberof`** RemediationDetails
 
@@ -82,7 +82,7 @@ ___
 
 • **name**: *string | null*
 
-*Defined in [api.ts:632](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L632)*
+*Defined in [api.ts:632](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L632)*
 
 **`memberof`** RemediationDetails
 
@@ -92,7 +92,7 @@ ___
 
 • **needs_reboot**: *boolean*
 
-*Defined in [api.ts:638](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L638)*
+*Defined in [api.ts:638](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L638)*
 
 Indicates whether any of the issues contained in the remediation require system reboot
 
@@ -104,7 +104,7 @@ ___
 
 • **updated_at**: *string*
 
-*Defined in [api.ts:668](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L668)*
+*Defined in [api.ts:668](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L668)*
 
 **`memberof`** RemediationDetails
 
@@ -114,6 +114,6 @@ ___
 
 • **updated_by**: *[UserOut](userout.md)*
 
-*Defined in [api.ts:662](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/remediations/api.ts#L662)*
+*Defined in [api.ts:662](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/remediations/api.ts#L662)*
 
 **`memberof`** RemediationDetails

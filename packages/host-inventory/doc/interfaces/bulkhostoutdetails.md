@@ -25,7 +25,7 @@
 
 • **detail**? : *string*
 
-*Defined in [packages/host-inventory/api.ts:132](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L132)*
+*Defined in [packages/host-inventory/api.ts:132](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L132)*
 
 Details about why a host failed to be created or updated.
 
@@ -37,7 +37,7 @@ ___
 
 • **host**? : *[CreateHostOut](createhostout.md)*
 
-*Defined in [packages/host-inventory/api.ts:120](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L120)*
+*Defined in [packages/host-inventory/api.ts:120](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L120)*
 
 **`memberof`** BulkHostOutDetails
 
@@ -47,7 +47,7 @@ ___
 
 • **status**? : *number*
 
-*Defined in [packages/host-inventory/api.ts:114](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L114)*
+*Defined in [packages/host-inventory/api.ts:114](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L114)*
 
 HTTP status code of the results of the host create/update process
 
@@ -59,7 +59,7 @@ ___
 
 • **title**? : *string*
 
-*Defined in [packages/host-inventory/api.ts:126](https://github.com/RedHatInsights/javascript-clients/blob/master/packages/host-inventory/api.ts#L126)*
+*Defined in [packages/host-inventory/api.ts:126](https://github.com/Hyperkid123/javascript-clients/blob/master/packages/host-inventory/api.ts#L126)*
 
 Short description of why a host failed to be created or updated.
 
